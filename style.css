@@ -1,3 +1,12 @@
+body {
+  background-image: url('./static/pixel_plant.png');
+  background-repeat: no-repeat;
+  /*background-attachment: fixed;  */
+  background-size: cover;
+  
+  margin-top: 1500px;
+  background-position: center top;
+}
 /*google photos: https://www.publicalbum.org/blog/embedding-google-photos-image*/
 
 /* paired images*/
@@ -74,4 +83,23 @@ img {
   -ms-transform: scale(2.5); /* IE 9 */
   -webkit-transform: scale(2.5); /* Safari 3-8 */
   transform: scale(2.5); 
+}
+
+
+/*fadein*/
+#container
+{
+    height:2000px;    
+}
+
+#container DIV
+{ 
+    /*margin:50px; */
+    /*padding:50px; */
+    background-color:pink; 
+}
+
+.fadein
+{
+    opacity:0;
 }
